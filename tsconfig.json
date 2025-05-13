@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+      "outDir": "dist",
+      "module": "ESNext",
+      "target": "ES2022",
+      "moduleResolution": "node",
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,  // Важно для Windows!
+      "skipLibCheck": true,
+      "allowJs": true,
+  },
+  "include": ["**/*"],
+  "exclude": [
+      "node_modules",
+    ]
+  }
