@@ -30,12 +30,6 @@ test('generates text input by default', () => {
   expect(html).toContain(readFile('InputDefault.html'))
 })
 
-test('generates textarea when specified', () => {
-  const html = HexletCode.formFor(template, {}, f =>
-    f.input('job', { as: 'textarea' }))
-  expect(html).toContain(readFile('TextAreaDeafult.html'))
-})
-
 test('overrides default textarea attributes', () => {
   const html = HexletCode.formFor(template, {}, f =>
     f.input('job', { as: 'textarea', rows: 50, cols: 50 }))

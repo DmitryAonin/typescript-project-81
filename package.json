@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/DmitryAonin/typescript-project-81/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DmitryAonin/typescript-project-81/actions)",
+  "description": "Form Generator",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc"
   },
-  "author": "",
+  "author": "Dmitry Afonin",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.22.0",
