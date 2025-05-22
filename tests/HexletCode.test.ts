@@ -15,7 +15,7 @@ describe('formFor', () => {
       f.input('job', { as: 'textarea', rows: 50, cols: 50 })
       f.submit('Save')
     })
-    
+
     expect(result).toBe(readFile('FormComplete.html'))
   })
 
